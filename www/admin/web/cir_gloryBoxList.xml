@@ -1,0 +1,14 @@
+<set name="attributes.gbx_id" value="0" overwrite="false" />
+
+<if condition="isDefined('attributes.save')">
+	<true>
+		<invoke object="application.contentObj" methodcall="gloryBoxSave(argumentCollection=attributes)" />
+		<set name="attributes.gbx_id" value="0" overwrite="true" />
+ 	</true>
+</if>
+
+<invoke object="application.contentObj" methodcall="displayGloryBoxForm(attributes.gbx_id)" returnVariable="gloryBoxForm" />
+
+<invoke object="application.contentObj" methodcall="displayGloryBoxList()" returnVariable="gloryBoxList" />
+
+<set name="content.mainContent" value="#gloryBoxForm##gloryBoxList#" />

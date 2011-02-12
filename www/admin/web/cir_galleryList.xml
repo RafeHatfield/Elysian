@@ -1,0 +1,13 @@
+<set name="attributes.gal_id" value="0" overwrite="no" />
+
+<if condition="isDefined('attributes.save')">
+	<true>
+		<invoke object="application.imageObj" methodcall="gallerySave(argumentCollection=attributes)" />
+	</true>
+</if>
+
+<invoke object="application.imageObj" methodCall="displayGalleryForm(gal_id=attributes.gal_id)" returnVariable="galleryForm" />
+
+<invoke object="application.imageObj" methodCall="adminGalleryList()" returnVariable="galleryList" />
+
+<set name="content.mainContent" value="#galleryForm##galleryList#" overwrite="yes" />

@@ -1,0 +1,1 @@
+<invoke object="application.systemObj" methodcall="generateXMLSiteMap()" returnVariable="content.mainContent" />

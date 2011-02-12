@@ -1,0 +1,7 @@
+<if condition="isDefined('attributes.save')">
+	<true>
+		<invoke object="application.contentObj" methodcall="gloryMessageSave(argumentCollection=attributes)" />
+ 	</true>
+</if>
+
+<invoke object="application.contentObj" methodcall="displayGloryMessageForm()" returnVariable="content.mainContent" />

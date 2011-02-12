@@ -1,0 +1,106 @@
+#banner{
+	width:771px;
+	height:376px;
+	overflow:hidden;
+	position:relative;
+	z-index:7;
+	margin:0 0 7px;}
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+width: 771px; /*width of featured content slider*/
+height: 376px;
+z-index:8;
+}
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+width: 771px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 100%;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+#content .sliderwrapper .contentdiv p{
+	position:absolute;
+	padding: 0 10px;
+   position:absolute;
+    height:40px;
+	line-height:40px;
+	font-weight:bold;
+	text-transform:uppercase;
+	left:0;
+	bottom:0px;
+	color:#e2e3e4;
+	font-style:italic;
+	background:url(../images/bg_info.png) 0 0 no-repeat;
+	z-index:11;
+	width:751px;
+	margin:0;
+	}
+.sliderwrapper .contentdiv p a{
+	color:#FFF;
+	text-transform:none;
+	font-style:normal;}
+.pagination{
+	display:none;
+
+}
+
+.pagination a{
+padding: 0 5px;
+text-decoration: none; 
+color: #00007D;
+}
+
+.pagination a:hover, .pagination a.selected{
+color: #000;
+}
+#banner_bottom{
+	width:707px;
+	height:197px;
+	position:relative;
+	overflow:hidden;
+	z-index:19;}
+.sliderwrapper1{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+width: 707px; /*width of featured content slider*/
+height: 197px;
+z-index:20;
+}
+.sliderwrapper1 .contentdiv{
+visibility: hidden; /*leave as is*/
+position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+width: 707px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 100%;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+#content .sliderwrapper1 .contentdiv p{
+	position:absolute;
+	padding: 0 10px;
+   position:absolute;
+    height:38px;
+	line-height:38px;
+	left:0;
+	bottom:0px;
+	color:#e2e3e4;
+	font-weight:bold;
+	background:url(../images/bg_info.png) 0 0 no-repeat;
+	z-index:21;
+	width:687px;
+	margin:0;
+	text-transform:uppercase;
+	}
+.sliderwrapper1 .contentdiv p a{
+	color:#FFF;
+	text-transform:none;}
+.pagination{
+	display:none;
+}

@@ -1,0 +1,12 @@
+<xfa name="editMember" value="member.memberForm" />
+<xfa name="memberMessages" value="member.memberMessages" />
+
+<set name="attributes.fastFind" value="" overwrite="no" />
+<set name="attributes.groupList" value="" overwrite="no" />
+<set name="attributes.country" value="0" overwrite="no" />
+
+<invoke object="application.memberObj" methodcall="displayMemberSearch(argumentCollection=attributes)" returnVariable="content.mainContent" />
+ 
+<invoke object="application.memberObj" methodcall="getMembers(argumentCollection=attributes)" returnVariable="qMembers" />
+
+<do action='v_member.memberList' contentVariable="content.mainContent" append="yes" />

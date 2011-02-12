@@ -1,0 +1,127 @@
+
+.menulist, .menulist  ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+.menulist{
+	position:absolute;
+	left:208px;
+	top:31px;
+	height:29px;
+	padding:1px 0 13px 3px;
+	}
+.menulist ul {
+ display: none;
+ position: absolute;
+ top: 1.0em;
+ margin-top: 34px;
+ _margin-top: 36px; /* I'm using ems and px to allow people to zoom their font */
+ left:0px;
+ width:148px;
+}
+.menulist .last ul{
+	left:auto;
+	right:3px;;
+	
+	}
+.menulist ul ul {
+ top: -1px; margin-top: 0;
+ left: 148px;
+}
+.menulist li {
+ float: left;
+ display: block;
+ position: relative;
+ padding:0 2px 0 0;
+ font-size:13px;
+ text-transform:uppercase;
+}
+.menulist .last a{
+	padding:0;
+	margin:0;
+	border:0;
+	}
+.menulist ul li {
+ float: none;
+ margin: 0;
+ margin-bottom:0px;
+ font-size:12px;
+ background:none;
+ padding:0;
+ text-transform:none;
+ text-shadow:none;
+ background:url(../images/bg_sub_nav.png) left top repeat-y;
+filter:alpha(opacity=85);
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.menulist ul>li:last-child {
+ margin-bottom: 0px; /* Mozilla fix */
+}
+.menulist a {
+ display: block;
+ padding:0 18px 0 0;
+ margin:0 18px 0 0;
+ color: #7f7774;
+ text-decoration: none;
+ border-right:1px solid #7f7774;
+}
+.menulist a:hover, .menulist a.highlighted:hover, .menulist a:focus {
+ color: #5ca8c1;
+ text-decoration:none;
+}
+.menulist a.highlighted {
+ color: #5ca8c1;
+}
+.menulist ul li a{
+	padding-bottom:9px;
+	border-right:0;
+	padding:0 0 0 10px;
+	line-height:25px;
+	font-size:12px;
+	color:#FFF;
+	margin:0;
+	}  
+.menulist ul li a:hover{
+	background:#a2a0a0;
+	text-decoration:none;
+	color:#fff;
+	}
+.menulist a .subind {
+ display: none;
+}
+.menulist ul a .subind {
+ display: block;
+ float: right;
+}
+.menulist a {
+ float: left;
+}
+.menulist ul a {
+ float: none;
+}
+/* \*/
+.menulist a {
+ float: none;
+}
+/* */
+/*
+ HACKS: IE/Win:
+ A small height on <li> and <a> tags and floating prevents gaps in menu.
+ * html affects <=IE6 and *:first-child+html affects IE7.
+ You may want to move these to browser-specific style sheets.
+\*/
+*:first-child+html .menulist ul li {
+ float: left;
+ width: 100%;
+}
+
+* html .menulist ul li {
+ float: left;
+ height: 1%;
+}
+* html .menulist ul a {
+ height: 1%;
+}
+/* End Hacks */

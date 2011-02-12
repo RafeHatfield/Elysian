@@ -1,0 +1,13 @@
+<set name="attributes.cta_id" value="0" overwrite="no" />
+
+<if condition="isDefined('attributes.save')">
+	<true>
+		<invoke object="application.ctaObj" methodcall="ctaSave(argumentCollection=attributes)" />
+	</true>
+</if>
+
+<invoke object="application.ctaObj" methodcall="displayCTAForm(cta_id=attributes.cta_id)" returnVariable="ctaForm" />
+
+<invoke object="application.ctaObj" methodcall="displayCTAList(cta_id=attributes.cta_id)" returnVariable="ctaList" />
+
+<set name="content.mainContent" value="#ctaForm##ctaList#" overwrite="yes" />

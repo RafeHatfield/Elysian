@@ -1,0 +1,13 @@
+<set name="attributes.pro_id" value="0" overwrite="no" />
+
+<if condition="isDefined('attributes.save')">
+	<true>
+		<invoke object="application.villaObj" methodcall="propertySave(argumentCollection=attributes)" />
+	</true>
+</if>
+ 
+<invoke object="application.villaObj" methodcall="displayPropertyForm(pro_id=attributes.pro_id)" returnVariable="propertyForm" />
+ 
+<invoke object="application.villaObj" methodcall="adminPropertyList()" returnVariable="propertyList" />
+ 
+<set name="content.mainContent" value="#propertyForm##propertyList#" overwrite="no" />

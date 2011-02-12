@@ -1,0 +1,1 @@
+<cflocation url="/index.cfm?fuseaction=accommodation.villasForSale&page=villas-for-sale" />
