@@ -260,7 +260,7 @@ body {
 .textbox ul{
 	margin:-13px 0 0;}
 .textbox ul li{
-	line-height:34px;
+	line-height:20px;
 	background:url(../images/img_icon.png) left center no-repeat;
 	padding:0 0 0 10px;}
 .gallery{
@@ -313,7 +313,6 @@ body {
 			text-shadow:#625b59 1px 1px 1px;
 			text-decoration:none;
 			color:#fff;
-
 	}
 .package_text h3{
 	font-size:12px;
