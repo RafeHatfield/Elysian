@@ -139,16 +139,16 @@ body {
 	margin-top:0;
 	}
 .box.promotions h3{
-	background:url(../images/bg_h3box1.png) 0 0 no-repeat;
+	background:url(../images/bgh3.png) 0 0 no-repeat;
 	text-shadow:#5e4d41 1px 1px 1px;
 	}
 .box.spa h3{
-	background:url(../images/bg_h3box3.png) 0 0 no-repeat;
-	text-shadow:#3d5669 1px 1px 1px;
+	background:url(../images/bgh3.png) 0 0 no-repeat;
+	text-shadow:#5e4d41 1px 1px 1px;
 	}
 .box.chinese h3,.box.valentines h3{
-	background:url(../images/bg_h3box2.png) 0 0 no-repeat;
-	text-shadow:#7c2b22 1px 1px 1px;
+	background:url(../images/bgh3.png) 0 0 no-repeat;
+	text-shadow:#5e4d41 1px 1px 1px;
 	}
 .box p{
 	line-height:13px;

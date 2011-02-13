@@ -254,7 +254,7 @@
 		        		</div>
 		        		
 		        		<a  href="index.cfm?fuseaction=content.display&page=rates" class="brown">see our RATES</a> 
-		        		<a href="##" class="brown"><strong>special</strong> OFFERS</a>
+		        		<a href="index.cfm?fuseaction=content.display&page=packages" class="brown"><strong>special</strong> OFFERS</a>
 		        		
 				        <div class="getform">
 				          <form action="##">
@@ -326,7 +326,7 @@
 				</div>
 				
 			    <div class="subpage_inner">
-					<p>Information: <a href="mailto:admin@theelysian.com">admin@theelysian.com</a> </p>
+					<p>General Information: <a href="mailto:info@theelysian.com">info@theelysian.com</a> </p>
 					<p>Reservations: <a href="mailto:res@theelysian.com">res@theelysian.com</a> </p>
 					<p>Sales & Marketing: <a href="mailto:sales@theelysian.com">sales@theelysian.com</a></p>
 			    </div>
@@ -334,7 +334,7 @@
 			 </div>
 		 
 		 </div>    
-		                                                        
+                             
 		<script type="text/javascript">
 		//Call dropdowncontent.init("anchorID", "positionString", glideduration, "revealBehavior") at the end of the page:
 		dropdowncontent.init("emaillink", "right-bottom", 1, 'mouseover')
@@ -344,9 +344,9 @@
 			<div class="subpage_wrapper" style="width:242px; padding-left:164px ">
 			    <div class="subpage_top"><p><img src="assets/images/pic_arrow.png" alt="" width="17" height="8" style="margin-left:55px;" /></p></div>
 			    <div class="subpage_inner">
-			          <p>Direct:<br />P: +62 361 730 999 | F: +62 361 737 509 </p>
-			          <p>Japan:<br />P: +81 3 6801 8344 | F: +81 3 5840 8503 </p>
-			          <p>UK & Ireland:<br />P&F: +44 0172 681 6400 </p>
+			          <p>Direct:<br />T: +62 361 730 999 | F: +62 361 737 509 </p>
+			          <!--- <p>Japan:<br />P: +81 3 6801 8344 | F: +81 3 5840 8503 </p>
+			          <p>UK & Ireland:<br />P&F: +44 0172 681 6400 </p> --->
 			    </div>
 			 </div>
 		 </div>  
@@ -360,7 +360,7 @@
 			<div class="subpage_wrapper" style="width:242px; padding-left:125px ">
 			    <div class="subpage_top"><p><img src="assets/images/pic_arrow.png" alt="" width="17" height="8" style="margin-left:95px;" /></p></div>
 			    <div class="subpage_inner">
-			          <p>Join us on <a href="http://www.facebook.com/pages/The-Elysian-Boutique-Villa-Hotel/235503809734">Facebook</a>!</p>
+			          <p>Join us on <a href="http://www.facebook.com/home.php##!/pages/The-Elysian-Boutique-Villa-Hotel/235503809734" target="_blank">Facebook</a>!</p>
 			    </div>
 			 </div>
 		 </div>  
@@ -388,9 +388,7 @@
 			<div class="subpage_wrapper" style="width:242px; padding-left:50px ">
 			    <div class="subpage_top"><p><img src="assets/images/pic_arrow.png" alt="" width="17" height="8" style="margin-left:167px;" /></p></div>
 			    <div class="subpage_inner">
-			          <p>skypecontent</p>
-			          <p>Reservations:<br />P: +62 361 730 540 | F: +62 361 732 724</p>
-			          <p>General Enquiries:<br />P: +62 361 730 333 | F: +62 361 737 111</p>
+				    <p><a href="skype:the_elysian?call">Click here</a> to contact our reservation team using Skype!</p>
 			    </div>
 			 </div>  
 		</div>  
@@ -404,8 +402,7 @@
 			<div class="subpage_wrapper" style="width:242px; padding-left:10px ">
 			    <div class="subpage_top"><p><img src="assets/images/pic_arrow.png" alt="" width="17" height="8" style="margin-left:210px;" /></p></div>
 			    <div class="subpage_inner">
-			          <p>Reservations:<br />P: +62 361 730 540 | F: +62 361 732 724</p>
-			          <p>General Enquiries:<br />P: +62 361 730 333 | F: +62 361 737 111</p>
+			          <p><a href="http://foursquare.com/venue/2534124" target="_blank"">Click here</a> to check in at Foursquare.</p>
 			    </div>
 			 </div>  
 		 </div> 
