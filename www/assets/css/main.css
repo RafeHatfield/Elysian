@@ -261,7 +261,9 @@ body {
 	margin:-13px 0 0;}
 .textbox ul li{
 	line-height:20px;
-	background:url(../images/img_icon.png) left center no-repeat;
+	background:url(../images/img_icon.png) left top;
+	background-position: 0 .75em;
+background-repeat: no-repeat;
 	padding:0 0 0 10px;}
 .gallery{
 	width:736px;

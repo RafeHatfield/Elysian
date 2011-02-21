@@ -33,7 +33,7 @@
 				
 					<cfif qContent.con_childListType is 0>
 					
-						<p>For further information, please explore these related menu items:</p>
+						<p>For further information, please explore these pages:</p>
 						
 						<ul style="margin-left: 50px">
 							<cfloop query="qChildContent">
@@ -1161,7 +1161,7 @@
 		</cfquery>
 		
 		<cfif not qGloryBoxes.recordCount>
-			<cfset qGloryBoxes = getGloryBoxes(active=1) />
+			<cfset qGloryBoxes = getGloryBoxes(gbx_active=1) />
 		</cfif>
 		
 		<cfsaveContent variable="gloryBox">
