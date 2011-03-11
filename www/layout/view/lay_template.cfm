@@ -51,17 +51,17 @@
 						<p>
 							<select name="languageChange" onChange="this.form.submit()">
 								<option value="">Select Language</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=zh-CN">Chinese (Simplified)</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=zh-TW">Chinese (Traditional)</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=fr">French</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=de">German</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=el">Greek</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=id">Indonesian</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=it">Italian</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=ja">Japanese</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=ko">Korean</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=pt">Portuguese</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.elysian.com&sl=en&tl=es">Spanish</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=zh-CN">Chinese (Simplified)</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=zh-TW">Chinese (Traditional)</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=fr">French</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=de">German</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=el">Greek</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=id">Indonesian</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=it">Italian</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=ja">Japanese</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=ko">Korean</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=pt">Portuguese</option>
+								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=es">Spanish</option>
 							</select>
 						</p>
 					</form>
@@ -163,7 +163,7 @@
 								<input type="hidden" name="Hotel" value="13506"> 
 								<input type="hidden" name="Chain" value="5154"> 
 								<input type="hidden" name="template" value="GCO"> 
-								<input type="hidden" name="shell" value="GCO"> 
+								<input type="hidden" name="shell" value="GCO2"> 
 								<input type="hidden" name="start" value="1"> 
 
 								<p>

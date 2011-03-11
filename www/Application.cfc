@@ -77,20 +77,20 @@
 
 		<!--- live --->
 			<cfset application.baseURL = "http://www.theelysian.com/" />
-			<cfset application.DBDSN = "bSentosaDSNIII" />
-			<cfset application.DBUserName = "bSentosa" />
-			<cfset application.DBPassword = "mySent0sa" />
+			<cfset application.DBDSN = "elysianDSN" />
+			<cfset application.DBUserName = "elydbUser" />
+			<cfset application.DBPassword = "TheElysian2010" />
 
-			<cfset application.reservationObj = createObject( 'component', 'sentosaH198951.com.reservation' ) />
-			<cfset application.menuObj = createObject( 'component', 'sentosaH198951.com.menu' ) />
-			<cfset application.villaObj = createObject( 'component', 'sentosaH198951.com.villa' ) />
-			<cfset application.contentObj = createObject( 'component', 'sentosaH198951.com.content' ) />
-			<cfset application.imageObj = createObject( 'component', 'sentosaH198951.com.image' ) />
-			<cfset application.newsObj = createObject( 'component', 'sentosaH198951.com.news' ) />
-			<cfset application.memberObj = createObject( 'component', 'sentosaH198951.com.member' ) />
-			<cfset application.contactObj = createObject( 'component', 'sentosaH198951.com.contact' ) />
-			<cfset application.systemObj = createObject( 'component', 'sentosaH198951.com.system' ) />
-			<cfset application.ctaObj = createObject( 'component', 'sentosaH198951.com.cta' ) />
+			<cfset application.reservationObj = createObject( 'component', 'elysianH211909.com.reservation' ) />
+			<cfset application.menuObj = createObject( 'component', 'elysianH211909.com.menu' ) />
+			<cfset application.villaObj = createObject( 'component', 'elysianH211909.com.villa' ) />
+			<cfset application.contentObj = createObject( 'component', 'elysianH211909.com.content' ) />
+			<cfset application.imageObj = createObject( 'component', 'elysianH211909.com.image' ) />
+			<cfset application.newsObj = createObject( 'component', 'elysianH211909.com.news' ) />
+			<cfset application.memberObj = createObject( 'component', 'elysianH211909.com.member' ) />
+			<cfset application.contactObj = createObject( 'component', 'elysianH211909.com.contact' ) />
+			<cfset application.ctaObj = createObject( 'component', 'elysianH211909.com.cta' ) />
+			<cfset application.systemObj = createObject( 'component', 'elysianH211909.com.system' ) />
 
 			<!--- this key is for balisentosa.asianvhm.com --->
 			<!--- <cfset application.googleKey = "ABQIAAAA-QoBVtFL2SWaVJEUzeBfOhT6Z1grzXIAr9CQeNPy8sD9XSooIRQMBdAmeetYxNgvVBuf3f_8TtmraA" /> --->
@@ -109,8 +109,8 @@
 		<cfset application.imageUploadPath = application.path & "assets\images\upload\" />
 		<cfset application.flashUploadPath = application.path & "assets\flash\" />
 
-		<cfset application.feedbackEmail = "info@balisentosa.com" />
-		<cfset application.reservationEmail = "reservations@balisentosa.com" />
+		<cfset application.feedbackEmail = "" />
+		<cfset application.reservationEmail = "" />
 		<cfset application.adminEmail = "rafe@asianvhm.com" />
 
 		<cfset application.appInitialized = true />
@@ -242,9 +242,11 @@
 		
 		<cfset var cferror = arguments.exception />
 		
+		<cfparam name="application.online" default="1" />
+		
 		<cfif application.online>
 		
-			<cfmail to="rafe@asianvhm.com" from="rafe@asianvhm.com" subject="Bali Sentosa Web Error" type="html">
+			<cfmail to="rafe@asianvhm.com" from="rafe@asianvhm.com" subject="The Elysian Web Error" type="html">
 	
 				<cfoutput>
 					<table width="100%" border="0" cellspacing="1" cellpadding="2">

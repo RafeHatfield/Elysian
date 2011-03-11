@@ -37,7 +37,7 @@
 						
 						<ul style="margin-left: 50px">
 							<cfloop query="qChildContent">
-								<li style="margin-top:5px;line-height:11px">
+								<li style="margin-top:5px;line-height:20px">
 									<cfif qChildContent.con_type is "Content" and not len(qChildContent.con_fuseAction)>
 										<a href="#request.myself#content.display&page=#qChildContent.con_sanitise#">#qChildContent.con_menuTitle#</a>
 									<cfelseif qChildContent.con_type is "Content" and len(qChildContent.con_fuseAction)>

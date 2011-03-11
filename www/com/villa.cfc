@@ -241,53 +241,7 @@
 
 			<cfset tnFinalWidth = imageCR.width />
 			<cfset tnFinalHeight = imageCR.height />
-			<!--- 
-			<cftransaction>
 
-				<cfquery name="addImage" datasource="#application.DBDSN#" username="#application.DBUserName#" password="#application.DBPassword#">
-					INSERT INTO wwwImage (
-						img_title,
-						img_name,
-						img_type,
-						img_altText,
-						img_height,
-						img_width
-					) VALUES (
-						<cfqueryparam cfsqltype="cf_sql_varchar" value="#arguments.img_title#" list="false" />,
-						<cfqueryparam cfsqltype="cf_sql_varchar" value="#fileNameSanitise#" list="false" />,
-						<cfqueryparam cfsqltype="cf_sql_varchar" value="Promotion Glory" list="false" />,
-						<cfqueryparam cfsqltype="cf_sql_varchar" value="#arguments.img_altText#" list="false" />,
-						<cfqueryparam cfsqltype="cf_sql_integer" value="#finalHeight#" list="false" />,
-						<cfqueryparam cfsqltype="cf_sql_integer" value="#finalWidth#" list="false" />
-					)
-
-					SELECT SCOPE_IDENTITY() AS imageID
-				</cfquery>
-
-				<!--- remove any previous main image for this content --->
-				<cfquery name="removePromotionImage" datasource="#application.DBDSN#" username="#application.DBUserName#" password="#application.DBPassword#">
-					DELETE FROM wwwPromotion_Image
-					WHERE pri_promotion = <cfqueryparam cfsqltype="cf_sql_integer" value="#arguments.prm_id#" list="false" />
-						AND pri_image IN (
-							SELECT img_id
-							FROM wwwImage
-							WHERE img_type = <cfqueryparam cfsqltype="cf_sql_varchar" value="Promotion Glory" list="false" />
-						)
-				</cfquery>
-
-				<!--- add new image for this content --->
-				<cfquery name="addPromotionImage" datasource="#application.DBDSN#" username="#application.DBUserName#" password="#application.DBPassword#">
-					INSERT INTO wwwPromotion_Image (
-						pri_promotion,
-						pri_image
-					) VALUES (
-						<cfqueryparam cfsqltype="cf_sql_integer" value="#arguments.prm_id#" list="false" />,
-						<cfqueryparam cfsqltype="cf_sql_integer" value="#addImage.imageID#" list="false" />
-					)
-				</cfquery>
-
-			</cftransaction>
-			 --->
 			<!--- repeat process for tn --->
 			<cftransaction>
 
@@ -438,7 +392,7 @@ The Sentosa Reservations Team
 							<cfset endP = FindNoCase("</p>",prm_body) + 4 />
 							#left(prm_body,endP)#
 							
-			            	<a href="##" class="booknow">BOOK NOW</a>
+			            	<a href="mailto:res@theelysian.com?subject=#prm_title#" class="booknow">BOOK NOW</a>
 			            	
 						</div>
 						

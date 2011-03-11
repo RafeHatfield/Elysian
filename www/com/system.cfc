@@ -107,7 +107,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <cfloop query="qSiteContent">
    <url>
-      <loc><cfif con_type is "Content" and not len(con_fuseAction)>http://www.balisentosa.com/index.cfm?fuseaction=content.display&amp;page=#con_sanitise#<cfelseif con_type is "Content" and len(con_fuseAction)>http://www.balisentosa.com/index.cfm?fuseaction=#con_fuseAction#&amp;page=#con_sanitise#<cfelseif con_type is "Link">#con_link#</cfif></loc>
+      <loc><cfif con_type is "Content" and not len(con_fuseAction)>http://www.theelysian.com/index.cfm?fuseaction=content.display&amp;page=#con_sanitise#<cfelseif con_type is "Content" and len(con_fuseAction)>http://www.balisentosa.com/index.cfm?fuseaction=#con_fuseAction#&amp;page=#con_sanitise#<cfelseif con_type is "Link">#con_link#</cfif></loc>
       <lastmod>#dateFormat(now(),"yyyy-mm-dd")#</lastmod>
       <changefreq>weekly</changefreq>
    </url>

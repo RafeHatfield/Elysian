@@ -93,10 +93,10 @@
 			<cfset application.downloadPath = application.path & "assets\download\" />
 			<cfset application.flashUploadPath = application.path & "assets\flash\" />
 
-			<cfset application.baseURL = "http://www.balisentosa.com/" />
-			<cfset application.DBDSN = "bSentosaDSNIII" />
-			<cfset application.DBUserName = "bSentosa" />
-			<cfset application.DBPassword = "mySent0sa" />
+			<cfset application.baseURL = "http://www.theelysian.com/" />
+			<cfset application.DBDSN = "elysianDSN" />
+			<cfset application.DBUserName = "elydbUser" />
+			<cfset application.DBPassword = "TheElysian2010" />
 			<cfset application.wwwURL = "http://" & cgi.server_name & "/" />
 			<cfset application.adminURL = "http://" & cgi.server_name & "/admin/" />
 
@@ -105,16 +105,17 @@
 			<cfset application.imagePath = "/assets/images/upload/" />
 			<cfset application.imagePathBase = "/assets/images/" />
 
-			<cfset application.reservationObj = createObject( 'component', 'sentosaH198951.com.reservation' ) />
-			<cfset application.menuObj = createObject( 'component', 'sentosaH198951.com.menu' ) />
-			<cfset application.villaObj = createObject( 'component', 'sentosaH198951.com.villa' ) />
-			<cfset application.contentObj = createObject( 'component', 'sentosaH198951.com.content' ) />
-			<cfset application.imageObj = createObject( 'component', 'sentosaH198951.com.image' ) />
-			<cfset application.newsObj = createObject( 'component', 'sentosaH198951.com.news' ) />
-			<cfset application.memberObj = createObject( 'component', 'sentosaH198951.com.member' ) />
-			<cfset application.contactObj = createObject( 'component', 'sentosaH198951.com.contact' ) />
-			<cfset application.systemObj = createObject( 'component', 'sentosaH198951.com.system' ) />
-			<cfset application.ctaObj = createObject( 'component', 'sentosaH198951.com.cta' ) />
+			<cfset application.reservationObj = createObject( 'component', 'elysianH211909.com.reservation' ) />
+			<cfset application.menuObj = createObject( 'component', 'elysianH211909.com.menu' ) />
+			<cfset application.villaObj = createObject( 'component', 'elysianH211909.com.villa' ) />
+			<cfset application.contentObj = createObject( 'component', 'elysianH211909.com.content' ) />
+			<cfset application.imageObj = createObject( 'component', 'elysianH211909.com.image' ) />
+			<cfset application.newsObj = createObject( 'component', 'elysianH211909.com.news' ) />
+			<cfset application.memberObj = createObject( 'component', 'elysianH211909.com.member' ) />
+			<cfset application.contactObj = createObject( 'component', 'elysianH211909.com.contact' ) />
+			<cfset application.systemObj = createObject( 'component', 'elysianH211909.com.system' ) />
+			<cfset application.ctaObj = createObject( 'component', 'elysianH211909.com.cta' ) />
+
 
 		</cfif>
 
