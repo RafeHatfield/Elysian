@@ -67,25 +67,6 @@
 
 			<cfset feedbackSuccess = "1" />
 			
-			<!--- send response --->
-<!--- 
-<cfmail to="#mem_email#" from="info@balisentosa.com" subject="Thanks for contacting Sentosa!" type="html">Dear #arguments.mem_firstName#,
-Ê
-Many thanks for sending us a message at Sentosa Private Villas and Spa.
-Ê
-Your email address has been recorded in our database and from time to time we will be sending you emails about Sentosa Private Villas and Spa, Bali including information on special offers and packages we have available.
-Privacy is important to us and we will not sell, rent, or give your name or email address to anyone. At any point, you can select the link at the bottom of every email to unsubscribe from our mailing list.
-Thanks again for your interest in Sentosa Private Villas and Spa, Bali. If you have any questions or comments, feel free to contact us.
-
-Have a great day,
-
-Sentosa Private Villas and Spa Team
-
-<a href="#application.baseURL##request.myself#contact.unsubscribe&email=#arguments.mem_email#">Click here to unsubscribe</a>.
-</cfmail>
- --->
-
-
 		<cfreturn feedbackSuccess />
 
 	</cffunction>

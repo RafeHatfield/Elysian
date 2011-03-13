@@ -1,7 +1,7 @@
 <cfoutput>
 
 	<cfsaveContent variable="htmlText">
-		<table class="googleTable"><tr><td><h1>Bali Sentosa</h1><br /><h2 class="googleH2"><b>Jl. Pura Telaga Waja, Petitenget, Seminyak, Bali, Indonesia 80361</h2></p></td></tr><tr><td><div style="float:right"><img src="assets/images/upload/page1.jpg" width="120" class="content_image"></div><div class="googleFont">Sentosa Private Villa and Spa Bali Resort is an exclusive ensemble of 43 luxurious villas in Bali; all set in idyllic landscaped gardens with private pools.<br /><br /><a href="index.cfm?fuseaction=contact.contactDetails&page=contact-us">Click here to contact us and enquire about your holiday today!</a></div></td></tr></table>
+		<table class="googleTable"><tr><td><h1 style="padding:0 0 5px">The Elysian Resort</h1><br /><h3 class="googleH2">18 Saridewi, Seminyak, Kuta, Bali, Indonesia 80361</h3></td></tr></table>
 	</cfsaveContent>
 
 	<cfset htmlText = trim(htmlText) />
@@ -14,7 +14,7 @@
 		var geocoder;
 		var map;
 
-		var address = "Jalan Pura Telaga Waja, Petitenget, Bali";
+		var address = "18 Saridewi, Seminyak, Kuta, Bali";
 
 		// On page load, call this function
 
@@ -45,9 +45,9 @@
 		   place = response.Placemark[0];
 
 		   // Retrieve the latitude and longitude
-		   <!--- point = new GLatLng(place.Point.coordinates[1],
-		                       place.Point.coordinates[0]); --->
-		   point = new GLatLng(-8.6799115,115.157653);
+		   point = new GLatLng(place.Point.coordinates[1],
+		                       place.Point.coordinates[0]);
+		   //point = new GLatLng(-8.6799115,115.157653);
 
 		   // Center the map on this point
 		   map.setCenter(point, 13);
@@ -79,4 +79,4 @@
 	</script>
 </cfoutput>
 
-<div id="map" style="width: 600px; height: 600px"></div>
+<div id="map" style="width: 700px; height: 600px"></div>

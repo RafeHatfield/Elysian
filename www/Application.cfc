@@ -46,7 +46,7 @@
 			<cfset application.ctaObj = createObject( 'component', 'elysian.com.cta' ) />
 			<cfset application.systemObj = createObject( 'component', 'elysian.com.system' ) />
 
-			<cfset application.googleKey = "ABQIAAAA-QoBVtFL2SWaVJEUzeBfOhQJLuVn3Ux9oH1j6jq0GYjiiOg28hTdK3CPeawgUijlW6NAsehdK4k6RA" />
+			<cfset application.googleKey = "ABQIAAAA-QoBVtFL2SWaVJEUzeBfOhQyqWyiS66Y2lmB61s9QXVRdmsVkRTvNOLc8ePy8EdJ3_pEwVTKNHpmVg" />
 
 			<cfset application.online = "0" />
 
@@ -92,11 +92,8 @@
 			<cfset application.ctaObj = createObject( 'component', 'elysianH211909.com.cta' ) />
 			<cfset application.systemObj = createObject( 'component', 'elysianH211909.com.system' ) />
 
-			<!--- this key is for balisentosa.asianvhm.com --->
-			<!--- <cfset application.googleKey = "ABQIAAAA-QoBVtFL2SWaVJEUzeBfOhT6Z1grzXIAr9CQeNPy8sD9XSooIRQMBdAmeetYxNgvVBuf3f_8TtmraA" /> --->
-
-			<!--- this key is for balisentosa.com --->
-			 <cfset application.googleKey = "ABQIAAAA-QoBVtFL2SWaVJEUzeBfOhTS8gIRkLWfri5g5T6L0prp3QLYWBTpoQrbzNuhk3JfMOCFxzAS84ZERQ" />
+			<!--- this key is for theelysian.com --->
+			 <cfset application.googleKey = "ABQIAAAA-QoBVtFL2SWaVJEUzeBfOhScxXe-2LsEIzKIO4gGKVTySXSJ4BR1WshlUloL3mcVYgLKjokDUmEcuw" />
 
 			<cfset application.online = "1" />
 
