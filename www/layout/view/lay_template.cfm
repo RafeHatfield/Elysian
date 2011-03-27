@@ -1,12 +1,15 @@
-<cfcontent reset="true"><cfoutput><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"> 
+<cfcontent reset="true"><cfoutput><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!--- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> --->
+<!--- <html xmlns="http://www.w3.org/1999/xhtml"> ---><html>
 	
 	<head>
-		<cfparam name="request.pageTitle" default="Bali Resorts: Bali Sentosa Private Villas &amp; Spa in Seminyak Bali" />
+		<cfparam name="request.pageTitle" default="The Elysian Bali Villas, Seminyak - Experience the Elysian and you'll never want to stay in a hotel room again." />
 		<title>#request.pageTitle#</title>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Elysian Index</title>
+		<meta name="description" content="#request.metaDescription#" />
+		<meta name="keywords" content="#request.metaKeywords#" />
+
 		<link href="assets/css/main.css" rel="stylesheet" type="text/css" media="screen" />
 		<script type="text/javascript" src="assets/js/fsmenu.js"></script>
 		<link rel="stylesheet" type="text/css" id="listmenu-h"  href="assets/css/listmenu_h.css" title="Horizontal 'Earth'" />
@@ -17,8 +20,6 @@
 		
 		<link type="text/css" media="screen" rel="stylesheet" href="assets/css/colorbox.css" />
 		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-<!--- 		<script src="assets/js/dynCalendar.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="assets/css/dynCalendar.css" /> --->
 		<script src="assets/js/calendar.js" type="text/javascript"></script>
 		<SCRIPT LANGUAGE="JavaScript">document.write(getCalendarStyles());</SCRIPT>
 
