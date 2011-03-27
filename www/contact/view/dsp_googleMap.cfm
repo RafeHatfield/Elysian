@@ -45,9 +45,9 @@
 		   place = response.Placemark[0];
 
 		   // Retrieve the latitude and longitude
-		   point = new GLatLng(place.Point.coordinates[1],
-		                       place.Point.coordinates[0]);
-		   //point = new GLatLng(-8.6799115,115.157653);
+		   <!--- point = new GLatLng(place.Point.coordinates[1],
+		                       place.Point.coordinates[0]); --->
+		   point = new GLatLng(-8.6881115,115.157653);
 
 		   // Center the map on this point
 		   map.setCenter(point, 13);
