@@ -37,9 +37,10 @@
 					
 						<li<cfif qMenu.recordCount is currentRow> class="last"</cfif>>
 							<cfif qMenu.con_type is "Content" and not len(qMenu.con_fuseAction)>
-								<a href="#request.myself#content.display&page=#qMenu.con_sanitise#">#ucase(qMenu.con_menuTitle)#</a>
+<!--- 								<a href="#request.myself#content.display&page=#qMenu.con_sanitise#">#ucase(qMenu.con_menuTitle)#</a> --->
+								<a href="index.cfm?page=#qMenu.con_sanitise#">#ucase(qMenu.con_menuTitle)#</a>
 							<cfelseif qMenu.con_type is "Content" and len(qMenu.con_fuseAction)>
-								<a href="#request.myself##qMenu.con_fuseAction#&page=#qMenu.con_sanitise#">#ucase(qMenu.con_menuTitle)#</a>
+								<a href="#request.myself##qMenu.con_fuseAction#&amp;page=#qMenu.con_sanitise#">#ucase(qMenu.con_menuTitle)#</a>
 							<cfelseif qMenu.con_type is "Link">
 								<a href="#qMenu.con_link#">#ucase(qMenu.con_menuTitle)#</a>
 							</cfif>
@@ -56,9 +57,10 @@
 									<cfloop query="qThisSubMenu">
 										<li<cfif subMenuCount is 1> class="first"</cfif>>
 											<cfif qThisSubMenu.con_type is "Content" and not len(qThisSubMenu.con_fuseAction)>
-												<a href="#request.myself#content.display&page=#qThisSubMenu.con_sanitise#">#qThisSubMenu.con_menuTitle#</a>
+<!--- 												<a href="#request.myself#content.display&page=#qThisSubMenu.con_sanitise#">#qThisSubMenu.con_menuTitle#</a> --->
+												<a href="index.cfm?page=#qThisSubMenu.con_sanitise#">#qThisSubMenu.con_menuTitle#</a>
 											<cfelseif qThisSubMenu.con_type is "Content" and len(qThisSubMenu.con_fuseAction)>
-												<a href="#request.myself##qThisSubMenu.con_fuseAction#&page=#qThisSubMenu.con_sanitise#">#qThisSubMenu.con_menuTitle#</a>
+												<a href="#request.myself##qThisSubMenu.con_fuseAction#&amp;page=#qThisSubMenu.con_sanitise#">#qThisSubMenu.con_menuTitle#</a>
 											<cfelseif qThisSubMenu.con_type is "Link">
 												<a href="#qThisSubMenu.con_link#">#qThisSubMenu.con_menuTitle#</a>
 											</cfif>
@@ -341,10 +343,11 @@
 			    <ul id="footer_nav">
 				    <cfloop query="getFooterMenu">
 				        <li<cfif getFooterMenu.currentRow is getFooterMenu.recordCount> class="last"</cfif>>								
-				        	<cfif getFooterMenu.con_type is "Content" and not len(getFooterMenu.con_fuseAction)>
-								<a href="#request.myself#content.display&page=#getFooterMenu.con_sanitise#">#getFooterMenu.con_menuTitle#</a>
+				        	<cfif getFooterMenu.con_type is "Content" and not len(getFooterMenu.con_fuseAction)><!--- 
+								<a href="#request.myself#content.display&page=#getFooterMenu.con_sanitise#">#getFooterMenu.con_menuTitle#</a> --->
+								<a href="index.cfm?page=#getFooterMenu.con_sanitise#">#getFooterMenu.con_menuTitle#</a>
 							<cfelseif getFooterMenu.con_type is "Content" and len(getFooterMenu.con_fuseAction)>
-								<a href="#request.myself##getFooterMenu.con_fuseAction#&page=#getFooterMenu.con_sanitise#">#getFooterMenu.con_menuTitle#</a>
+								<a href="#request.myself##getFooterMenu.con_fuseAction#&amp;page=#getFooterMenu.con_sanitise#">#getFooterMenu.con_menuTitle#</a>
 							<cfelseif getFooterMenu.con_type is "Link">
 								<a href="#getFooterMenu.con_link#">#getFooterMenu.con_menuTitle#</a>
 							</cfif>

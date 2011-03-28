@@ -6,22 +6,22 @@
 		<cfparam name="request.pageTitle" default="The Elysian Bali Villas, Seminyak - Experience the Elysian and you'll never want to stay in a hotel room again." />
 		<title>#request.pageTitle#</title>
 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="description" content="#request.metaDescription#" />
-		<meta name="keywords" content="#request.metaKeywords#" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="#request.metaDescription#">
+		<meta name="keywords" content="#request.metaKeywords#">
 
-		<link href="assets/css/main.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="assets/css/main.css" rel="stylesheet" type="text/css" media="screen">
 		<script type="text/javascript" src="assets/js/fsmenu.js"></script>
-		<link rel="stylesheet" type="text/css" id="listmenu-h"  href="assets/css/listmenu_h.css" title="Horizontal 'Earth'" />
-		<link rel="stylesheet" type="text/css" id="fsmenu-fallback"  href="assets/css/listmenu_fallback.css" />
+		<link rel="stylesheet" type="text/css" id="listmenu-h"  href="assets/css/listmenu_h.css" title="Horizontal 'Earth'">
+		<link rel="stylesheet" type="text/css" id="fsmenu-fallback"  href="assets/css/listmenu_fallback.css">
 		<script type="text/javascript" src="assets/js/dropdowncontent.js"> </script>
-		<link rel="stylesheet" type="text/css" href="assets/css/contentslider.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/contentslider.css">
 		<script type="text/javascript" src="assets/js/contentslider.js"></script>
 		
-		<link type="text/css" media="screen" rel="stylesheet" href="assets/css/colorbox.css" />
+		<link type="text/css" media="screen" rel="stylesheet" href="assets/css/colorbox.css">
 		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
 		<script src="assets/js/calendar.js" type="text/javascript"></script>
-		<SCRIPT LANGUAGE="JavaScript">document.write(getCalendarStyles());</SCRIPT>
+		<script type="text/javascript">document.write(getCalendarStyles());</SCRIPT>
 
 		<script src="assets/js/jquery.colorbox.js" type="text/javascript"></script>
 		<script type="text/javascript">
@@ -52,17 +52,17 @@
 						<p>
 							<select name="languageChange" onChange="this.form.submit()">
 								<option value="">Select Language</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=zh-CN">Chinese (Simplified)</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=zh-TW">Chinese (Traditional)</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=fr">French</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=de">German</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=el">Greek</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=id">Indonesian</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=it">Italian</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=ja">Japanese</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=ko">Korean</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=pt">Portuguese</option>
-								<option value="http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&u=http%3A%2F%2Fwww.theelysian.com&sl=en&tl=es">Spanish</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=zh-CN">Chinese (Simplified)</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=zh-TW">Chinese (Traditional)</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=fr">French</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=de">German</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=el">Greek</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=id">Indonesian</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=it">Italian</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=ja">Japanese</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=ko">Korean</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=pt">Portuguese</option>
+								<option value="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http%3A%2F%2Fwww.theelysian.com&amp;sl=en&amp;tl=es">Spanish</option>
 							</select>
 						</p>
 					</form>
@@ -153,7 +153,7 @@
 		      		<div class="contenttop_right">
 		       			<div class="book">
 			       			
-							<SCRIPT LANGUAGE="JavaScript">
+							<SCRIPT type="text/javascript">
 								//var cal = new CalendarPopup();
 								var cal1x = new CalendarPopup("testdiv1");
 								var cal2x = new CalendarPopup("testdiv1");
@@ -254,19 +254,52 @@
 							</form> --->
 		        		</div>
 		        		
-		        		<a  href="index.cfm?fuseaction=content.display&page=rates" class="brown">see our RATES</a> 
-		        		<a href="index.cfm?fuseaction=content.display&page=packages" class="brown"><strong>special</strong> OFFERS</a>
+		        		<a  href="index.cfm?page=rates" class="brown">see our RATES</a> 
+		        		<a href="index.cfm?page=packages" class="brown"><strong>special</strong> OFFERS</a>
+		        		
+		        		<!--- 
+		        		<!-- BEGIN: Constant Contact Stylish Email Newsletter Form -->
+<div align="center">
+<div style="width:160px; background-color: #ffffff;">
+<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:3;">
+<font style="font-weight: bold; font-family:Arial; font-size:16px; color:#006699;">Sign up for our Email Newsletter</font>
+<input type="text" name="ea" size="20" value="" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10px; border:1px solid #999999;">
+
+<input type="submit" name="go" value="GO" class="submit"  style="font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10px;">
+<input type="hidden" name="llr" value="en4slveab">
+<input type="hidden" name="m" value="1104523394468">
+<input type="hidden" name="p" value="oi">
+</form>
+</div>
+</div>
+<!-- END: Constant Contact Stylish Email Newsletter Form -->
+<!-- BEGIN: SafeSubscribe -->
+<div align="center" style="padding-top:5px;">
+<img src="https://imgssl.constantcontact.com/ui/images1/safe_subscribe_logo.gif" border="0" width="168" height="14" alt=""/>
+</div>
+<!-- END: SafeSubscribe -->
+
+<!-- BEGIN: Email Marketing you can trust -->
+<div align="center" style="font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#999999;">
+For <a href="http://www.constantcontact.com/jmml/email-marketing.jsp" style="text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#999999;" target="_blank">Email Marketing</a> you can trust
+</div>
+<!-- END: Email Marketing you can trust -->
+		        		 --->
 		        		
 				        <div class="getform">
-				          <form action="##">
-				            <fieldset>
-				              <input type="text" value="Join our Newsletter" onblur="if(this.value=='') this.value='Join our Newsletter';" onfocus="if(this.value=='Join our Newsletter') this.value='';" class="int_text" />
-				              <a href="##" class="int_btn"></a>
-				            </fieldset>
-				          </form>
-				          <p>Sign up to our newsletter and recieve great 
+						<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post">
+<!--- 							<fieldset> --->
+								<input type="text" name="ea" value="Join our Newsletter" onblur="if(this.value=='') this.value='Join our Newsletter';" onfocus="if(this.value=='Join our Newsletter') this.value='';" class="int_text">
+								<a href="##" onClick="document.forms['ccoptin'].submit(); return false" class="int_btn"></a>
+								<input type="hidden" name="llr" value="en4slveab">
+								<input type="hidden" name="m" value="1104523394468">
+								<input type="hidden" name="p" value="oi">
+							<!--- </fieldset> --->
+						</form>
+						
+				          <p>Sign up to our newsletter and receive great 
 				            offers and updates!</p>
-				          <p><span>To unsubscribe from e-news</span> <a href="##">click here.</a></p>
+				          <!--- <p><span>To unsubscribe from e-news</span> <a href="##">click here.</a></p> --->
 				        </div>
 				        
 				        <div class="item">
@@ -403,7 +436,7 @@
 			<div class="subpage_wrapper" style="width:242px; padding-left:10px ">
 			    <div class="subpage_top"><p><img src="assets/images/pic_arrow.png" alt="" width="17" height="8" style="margin-left:210px;" /></p></div>
 			    <div class="subpage_inner">
-			          <p><a href="http://foursquare.com/venue/2534124" target="_blank"">Click here</a> to check in at Foursquare.</p>
+			          <p><a href="http://foursquare.com/venue/2534124" target="_blank">Click here</a> to check in at Foursquare.</p>
 			    </div>
 			 </div>  
 		 </div> 
